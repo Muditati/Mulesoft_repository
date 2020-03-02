@@ -27,7 +27,7 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				<deploymentType>cloudhub</deploymentType>
+				<cloudHubDeployment>
       				<uri>https://anypoint.mulesoft.com/</uri>
 				 <username>${cloudhub.username}</username>
       				<password>${cloudhub.password}</password>
@@ -39,6 +39,7 @@
       				<workers>1</workers>
       				<workerType>Micro</workerType>
 				<redeploy>true</redeploy>
+				</cloudHubDeployment>
 				</configuration>
 			</plugin>
 			<plugin>
