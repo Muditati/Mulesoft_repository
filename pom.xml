@@ -31,7 +31,7 @@
       				<uri>https://anypoint.mulesoft.com/</uri>
 				 <username>${cloudhub.username}</username>
       				<password>${cloudhub.password}</password>
-				<environment>sandbox</environment>
+				<environment>Sandbox</environment>
 				<applicationName>dummy1</applicationName>
       				<muleVersion>4.2.2</muleVersion>
       				<businessGroup>Accenture</businessGroup>
