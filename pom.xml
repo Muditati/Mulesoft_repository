@@ -32,7 +32,7 @@
 				 <username>${cloudhub.username}</username>
       				<password>${cloudhub.password}</password>
 				<environment>SANDBOX</environment>
-				<applicationName>innerhttp2</applicationName>
+				<applicationName>dummy1</applicationName>
       				<muleVersion>4.2.2</muleVersion>
       				<businessGroup>Accenture</businessGroup>
 				<region>us-east-1</region>
@@ -94,7 +94,7 @@
 <distributionManagement>
         <repository>
             <id>nexus-credentials</id>
-            <url>http://localhost:8081/repository/Test_Nexus_repository/</url>
+            <url>http://localhost:8081/repository/Test_Nexus_dummy_projects/</url>
         </repository>
     </distributionManagement>
 </project>
