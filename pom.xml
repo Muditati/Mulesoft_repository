@@ -96,7 +96,7 @@
 <distributionManagement>
         <repository>
             <id>nexus-credentials</id>
-            <url>http://localhost:8081/repository/Test_Nexus_dummy_projects/</url>
+            <url>http://localhost:8081/repository/Test_Nexus_repository/</url>
         </repository>
     </distributionManagement>
 </project>
