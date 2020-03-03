@@ -93,13 +93,15 @@
         </pluginRepository>
     </pluginRepositories>
 <distributionManagement>
+	 <repositories>
         <repository>
             <id>nexus-credentials</id>
             <url>http://localhost:8081/repository/Test_Nexus_dummy_projects/</url>
         </repository>
-	 <repository>
+	<repository>
             <id>ANYPOINT</id>
             <url>https://anypoint.mulesoft.com/</url>
         </repository>
+		  </repositories>
     </distributionManagement>
 </project>
