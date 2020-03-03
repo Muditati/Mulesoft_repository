@@ -32,7 +32,7 @@
 				 <username>${cloudhub.username}</username>
       				<password>${cloudhub.password}</password>
 				<environment>Sandbox</environment>
-				<applicationName>dummy1</applicationName>
+				<applicationName>dummy2</applicationName>
       				<muleVersion>4.2.2</muleVersion>
       				<businessGroup>Accenture</businessGroup>
 				<region>us-east-1</region>
@@ -93,9 +93,9 @@
         </pluginRepository>
     </pluginRepositories>
 <distributionManagement>
-	<repository>
-            <id>ANYPOINT</id>
-            <url>https://anypoint.mulesoft.com/</url>
+        <repository>
+            <id>nexus-credentials</id>
+            <url>http://localhost:8081/repository/Test_Nexus_dummy_projects/</url>
         </repository>
     </distributionManagement>
 </project>
